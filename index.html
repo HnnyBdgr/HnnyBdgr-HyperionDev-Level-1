@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Swellness</title>
+    <link rel="stylesheet" href="./Styling/index.css" />
+    <style></style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="wellness-header">
+      <h1><b>SWELLNESS</b></h1>
+      <p class="explore-boundlessly">Live Boundlessly</p>
+      <hr />
+      <div class="header-bar">
+        <nav>
+          <ul class="page-links">
+            <li><a href="./Pages/part1.html">Part 1</a></li>
+            <li><a href="./Pages/part2.html"> Part 2</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Block Code- Text with Background -->
+    <div class="top-block">
+      <img
+        class="balance"
+        src="./Images/Balance.jpg"
+        alt="stones stacked and balanced"
+      />
+    </div>
+    <div class="text-with-background">
+      <p>
+        Wellness is living in alignment with the needs<br />
+        of your body, mind and spirit.
+      </p>
+    </div>
+    <!-- Introduction to Wellness -->
+    <div class="intro-to-wellness">
+      <h2>So What About Wellness?</h2>
+      <p class="general-p">
+        No matter who you are, what your background is or how far on your
+        journey of life you are, its never too late- or too early- to start
+        taking care of ourselves.
+      </p>
+    </div>
+    <div class="intro-to-wellness">
+      <h2>What is it exactly?</h2>
+      <p class="general-p">
+        Holistic approach to who and what you are. <br />
+        Carelfully curating each area of your life in order to optimise
+        yourself.
+      </p>
+    </div>
+    <div class="intro-to-wellness">
+      <h2>Why is it important?</h2>
+      <p class="general-p">
+        Taking care of yourself is the best way to take care of those that you
+        love.
+      </p>
+    </div>
+    <!-- Block Code- Text with Background -->
+    <div class="text-with-background2">
+      <p>
+        "Health is adding a level of intention to every area of your life"<br />
+        <i>~ Miranda Anderson</i>
+      </p>
+    </div>
+    <!-- Table of Wellness Parts 1 and 2 -->
+    <div class="table-of-swellness">
+      <table class="swellness-table">
+        <caption class="caption">
+          Swellness Areas of Focus
+        </caption>
+        <tr class="table-headings">
+          <th><a href="./Pages/part1.html">Part 1</a></th>
+          <th><a href="./Pages/part2.html">Part 2</a></th>
+        </tr>
+        <tr>
+          <td>Emotional</td>
+          <td>Physical</td>
+        </tr>
+        <tr>
+          <td>Spiritual</td>
+          <td>Environmental</td>
+        </tr>
+        <tr>
+          <td>Intellectual</td>
+          <td>Occupational</td>
+        </tr>
+        <tr>
+          <td>Social</td>
+          <td>Financial</td>
+        </tr>
+      </table>
+    </div>
+    <!-- Flexed Trio of Images -->
+    <div class="trio-images">
+      <img src="./Images/trio-meditation.jpg" alt="man meditating" />
+      <img src="./Images/trio-lotus.jpg" alt="pink lotus in the water" />
+      <img src="./Images/trio-journal.jpg" alt="woman journalling" />
+    </div>
+    <!-- Client Radio Feedback Form -->
+    <div class="feedback-form">
+      <h3>We Want To Hear From You</h3>
+      <form action="submit_feedback.php" method="post">
+        <label>Interest:</label><br />
+        <input
+          type="radio"
+          id="suggestion"
+          name="feedback_type"
+          value="suggestion"
+        />
+        <label for="suggestion">Suggestion</label><br />
+        <input
+          type="radio"
+          id="compliment"
+          name="feedback_type"
+          value="compliment"
+        />
+        <label for="compliment">Compliment</label><br />
+        <input
+          type="radio"
+          id="question"
+          name="feedback_type"
+          value="question"
+        />
+        <label for="question">Question</label><br /><br />
+
+        <label for="customer_name">Your Name:</label><br />
+        <input
+          type="text"
+          id="customer_name"
+          name="customer_name"
+          required
+        /><br /><br />
+        <label for="email">Your Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="feedback">We're All Ears:</label><br />
+        <textarea
+          id="feedback"
+          name="feedback"
+          rows="4"
+          cols="50"
+          required
+        ></textarea
+        ><br /><br />
+        <input id="submit-button" type="submit" value="Submit" />
+      </form>
+    </div>
+    <hr />
+    <!-- Footer and External Link -->
+    <footer>
+      <div class="external-link">
+        <h3>To read about the Wheel of Wellness, follow this link:</h3>
+        <a href="https://greensngoodness.com/wheel-of-wellness/"
+          >Greens N Goodness</a
+        >
+      </div>
+      <div class="external-link">
+        <h3>
+          To read more on what Miranda Andersen has to say about living
+          intentionally,<br />
+          follow this link:
+        </h3>
+        <a
+          href="https://realfoodwholelife.com/feelgoodeffect/living-with-less-miranda-anderson/"
+          >Real Food Whole Life</a
+        >
+      </div>
+      <p>&copy; 2023 My Swellness Website</p>
+    </footer>
+  </body>
+</html>
